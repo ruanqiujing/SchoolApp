@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@mipmap/mybackground"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_myIcon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:background="@mipmap/img_user_head" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_my_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="用户名"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:background="#f5abd6"-->
+                <!--android:gravity="center"-->
+                <!--android:orientation="horizontal">-->
+                <!--<ImageView-->
+                    <!--android:id="@+id/iv_my_sex"-->
+                    <!--android:layout_width="15dp"-->
+                    <!--android:layout_height="10dp"-->
+                    <!--android:src="@mipmap/women"/>-->
+                <TextView
+                    android:id="@+id/tv_my_age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:text="女"
+                    android:textSize="18sp"
+                    android:textColor="@color/black" />
+            <!--</LinearLayout>-->
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/text_view_border"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="switchUser"
+        android:padding="10dp"
+        android:text="切换用户"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/text_view_border"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="logOut"
+        android:padding="10dp"
+        android:text="退出登录"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
+
+

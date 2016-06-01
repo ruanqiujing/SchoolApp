@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ruan.administrator.schoolapp">
+
+    <!-- Bmob需要的权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- 保持CPU运转，屏幕和键盘灯有可能是关闭的，用于文件上传和下载 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <!-- Bmob -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.RegisterActivity" />
+        <activity android:name=".activity.HomeActivity" />
+        <activity android:name=".activity.LoginActivity" />
+        <activity android:name=".activity.CommunityActivity" />
+        <activity android:name=".activity.CommunityPublishActivity" />
+        <activity android:name=".activity.ShowDetailCommunityActivity" />
+        <activity android:name=".activity.ShowDetailLectureActivity0" />
+        <activity android:name=".activity.ShowDetailLectureActivity1" />
+        <activity android:name=".activity.ShowDetailLectureActivity2" />
+        <activity android:name=".activity.ShowDetailLectureActivity3" />
+        <activity android:name=".activity.ShowDetailLectureActivity4" />
+        <activity android:name=".activity.ShowDetailLectureActivity5" />
+        <activity android:name=".activity.ShowDetailLectureActivity6" />
+        <activity android:name=".activity.ShowDetailLectureActivity7" />
+        <activity android:name=".activity.ShowDetailLectureActivity8" />
+        <activity android:name=".activity.ShowDetailArticleActivity" />
+        <activity android:name=".activity.MyActivity" />
+        <activity android:name=".activity.CollegeActivity0" />
+        <activity android:name=".activity.CollegeActivity1" />
+        <activity android:name=".activity.CollegeActivity2" />
+        <activity android:name=".activity.CollegeActivity3" />
+        <activity android:name=".activity.CollegeActivity4" />
+        <activity android:name=".activity.CollegeActivity5" />
+        <activity android:name=".activity.CollegeActivity6" />
+        <activity android:name=".activity.CollegeActivity7" />
+        <activity android:name=".activity.CollegeActivity8" />
+        <activity android:name=".activity.CollegePublishActivity0" />
+        <activity android:name=".activity.CollegePublishActivity1" />
+        <activity android:name=".activity.CollegePublishActivity2" />
+        <activity android:name=".activity.CollegePublishActivity3" />
+        <activity android:name=".activity.CollegePublishActivity4" />
+        <activity android:name=".activity.CollegePublishActivity5" />
+        <activity android:name=".activity.CollegePublishActivity6" />
+        <activity android:name=".activity.CollegePublishActivity7" />
+        <activity android:name=".activity.CollegePublishActivity8" />
+        <activity android:name=".activity.EducationalAdministratorActivity" />
+        <activity android:name=".activity.ArticleActivity" />
+        <activity android:name=".activity.ArticlePublishActivity" />
+        <activity android:name=".activity.OutdoorActivity" />
+        <activity android:name=".activity.OutdoorPublishActivity" />
+        <activity android:name=".activity.OutdoorDetailActivity" />
+        <activity android:name=".activity.CollegeActivity"></activity>
+    </application>
+
+</manifest>

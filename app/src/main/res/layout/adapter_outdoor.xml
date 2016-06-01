@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="20dp"
+    android:paddingTop="20dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_adapter_outdoor"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="3dp"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/picture_no" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_adapter_outdoor_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="说走就走的旅行"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_adapter_outdoor_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawableLeft="@mipmap/time"
+                android:drawablePadding="3dp"
+                android:text="03月01日-04月30日"
+                android:textColor="#aa8e8686"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_adapter_outdoor_position"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawableLeft="@mipmap/position"
+                android:drawablePadding="3dp"
+                android:text="黑龙江省南部尚志市帽儿山"
+                android:textColor="#aa8e8686"
+                android:textSize="16sp" />
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="3dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="5dp">
+                    <TextView
+                        android:id="@+id/tv_adapter_outdoor_time_pub"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginTop="5dp"
+                        android:text="2015-01-02"
+                        android:textColor="#aa8e8686"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/tv_adapter_outdoor_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:textColor="#aa8e8686"
+                        android:textSize="14sp" />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

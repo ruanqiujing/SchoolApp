@@ -1,0 +1,89 @@
+"<1> main@830028467800" prio=5 runnable
+  java.lang.Thread.State: RUNNABLE
+	  at com.ruan.administrator.schoolapp.activity.CampusSceneryActivity$1.handleMessage(CampusSceneryActivity.java:42)
+	  at android.os.Handler.dispatchMessage(Handler.java:102)
+	  at android.os.Looper.loop(Looper.java:136)
+	  at android.app.ActivityThread.main(ActivityThread.java:5049)
+	  at java.lang.reflect.Method.invokeNative(Method.java:-1)
+	  at java.lang.reflect.Method.invoke(Method.java:515)
+	  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:793)
+	  at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:609)
+	  at dalvik.system.NativeStart.main(NativeStart.java:-1)
+
+"<13> Thread-3194@830071409696" prio=5 runnable
+  java.lang.Thread.State: RUNNABLE
+	  at com.ruan.administrator.schoolapp.activity.CampusSceneryActivity$2$1.onSuccess(CampusSceneryActivity.java:85)
+	  at cn.bmob.v3.requestmanager.From.Code(SourceFile:475)
+	  at cn.bmob.v3.BmobQuery.Code(SourceFile:538)
+	  at cn.bmob.v3.BmobQuery.Code(SourceFile:647)
+	  at cn.bmob.v3.BmobQuery.findObjects(SourceFile:664)
+	  at com.ruan.administrator.schoolapp.activity.CampusSceneryActivity$2.run(CampusSceneryActivity.java:81)
+
+"<21> OkHttp ConnectionPool@830072627392" daemon prio=5 sleeping
+  java.lang.Thread.State: TIMED_WAITING
+	 Incompatible thread state: thread not suspended
+
+"<20> Okio Watchdog@830072610192" daemon prio=5 waiting
+  java.lang.Thread.State: WAITING
+	 Incompatible thread state: thread not suspended
+
+"<19> Binder_3@830071744992" prio=5 runnable
+  java.lang.Thread.State: RUNNABLE
+	 Incompatible thread state: thread not suspended
+
+"<18> Thread-3200@830071606640" prio=5 waiting
+  java.lang.Thread.State: WAITING
+	 Incompatible thread state: thread not suspended
+
+"<17> Thread-3199@830071606072" prio=5 waiting
+  java.lang.Thread.State: WAITING
+	 Incompatible thread state: thread not suspended
+
+"<16> Thread-3198@830071605680" prio=5 waiting
+  java.lang.Thread.State: WAITING
+	 Incompatible thread state: thread not suspended
+
+"<15> Thread-3197@830071605384" prio=5 waiting
+  java.lang.Thread.State: WAITING
+	 Incompatible thread state: thread not suspended
+
+"<14> Thread-3196@830071605088" prio=5 waiting
+  java.lang.Thread.State: WAITING
+	 Incompatible thread state: thread not suspended
+
+"<11> Thread-3190@830064847792" prio=5 runnable
+  java.lang.Thread.State: RUNNABLE
+	 Incompatible thread state: thread not suspended
+
+"<10> Binder_2@830064749128" prio=5 runnable
+  java.lang.Thread.State: RUNNABLE
+	 Incompatible thread state: thread not suspended
+
+"<9> Binder_1@830064748840" prio=5 runnable
+  java.lang.Thread.State: RUNNABLE
+	 Incompatible thread state: thread not suspended
+
+"<8> FinalizerWatchdogDaemon@830064735560" daemon prio=5 waiting
+  java.lang.Thread.State: WAITING
+	 Incompatible thread state: thread not suspended
+
+"<7> FinalizerDaemon@830064735128" daemon prio=5 waiting
+  java.lang.Thread.State: WAITING
+	 Incompatible thread state: thread not suspended
+
+"<6> ReferenceQueueDaemon@830064734768" daemon prio=5 waiting
+  java.lang.Thread.State: WAITING
+	 Incompatible thread state: thread not suspended
+
+"<5> Compiler@830064734528" daemon prio=5 waiting
+  java.lang.Thread.State: WAITING
+	 Incompatible thread state: thread not suspended
+
+"<3> Signal Catcher@830064734048" daemon prio=5 waiting
+  java.lang.Thread.State: WAITING
+	 Incompatible thread state: thread not suspended
+
+"<2> GC@830064733824" daemon prio=5 waiting
+  java.lang.Thread.State: WAITING
+	 Incompatible thread state: thread not suspended
+

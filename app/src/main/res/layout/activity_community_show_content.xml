@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_title_background">
+
+        <ImageView
+            android:id="@+id/iv_show_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:layout_marginLeft="3dp"
+            android:src="@mipmap/back" />
+
+        <TextView
+            android:id="@+id/tv_show_content_title"
+            style="@style/style_title"
+            android:textSize="20sp"
+            android:layout_weight="11" />
+
+        <ImageView
+            android:id="@+id/iv_community_show_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="3dp"
+            android:visibility="invisible"
+            android:clickable="true"
+            android:src="@mipmap/delete"
+           />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_show_content_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#2d2c2c"
+        android:textSize="16sp"
+        android:layout_marginBottom="5dp"
+        android:singleLine="false"
+        android:scrollbars="vertical"
+       />
+</LinearLayout>

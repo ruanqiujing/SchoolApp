@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "com.ruan.administrator.schoolapp"
+        minSdkVersion 19
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.2.1'
+    compile files('libs/okhttp-2.4.0.jar')
+    compile files('libs/okio-1.4.0.jar')
+    compile files('libs/Bmob_Push_V0.8beta_20160315.jar')
+    compile files('libs/BmobSDK_V3.4.6_0413.jar')
+    compile files('libs/universal-image-loader-1.9.2_sources.jar')
+}

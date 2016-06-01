@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/vf_imageview1"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/campaign_one"/>
+
+    <ImageView
+        android:id="@+id/iv_home_dot1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="130dp"
+        android:src="@mipmap/dot_selected" />
+
+    <ImageView
+        android:id="@+id/iv_home_dot2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="130dp"
+        android:src="@mipmap/dot_unselected" />
+
+    <ImageView
+        android:id="@+id/iv_home_dot3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="185dp"
+        android:layout_marginTop="130dp"
+        android:src="@mipmap/dot_unselected" />
+</FrameLayout>
