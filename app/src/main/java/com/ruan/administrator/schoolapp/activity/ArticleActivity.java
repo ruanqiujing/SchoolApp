@@ -82,7 +82,7 @@ public class ArticleActivity extends AppCompatActivity {
 
                         if (apList != null) {
                             handler.sendEmptyMessage(0);
-
+//
                         }
                     }
 
